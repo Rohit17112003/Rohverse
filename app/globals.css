@@ -1,0 +1,91 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+html {
+  overflow-x: hidden;
+}
+
+::selection {
+  background-color: rgba(199, 120, 221, 0.2);
+  color: #fff;
+}
+
+/* For Firefox */
+::-moz-selection {
+  background-color: rgba(199, 120, 221, 0.2);
+  color: #fff;
+}
+
+/* For WebKit-based browsers */
+::selection {
+  background-color: rgba(199, 120, 221, 0.2);
+  color: #fff;
+}
+.roboto-condensed {
+  font-family: "Roboto Condensed", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #213448;
+}
+.container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.description {
+  color: #abb2bf;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.flex-all-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#inputField:focus#inputField::placeholder {
+  position: absolute;
+  top: 0 !important;
+  transition: all;
+  transition: 3s;
+}
+@media (min-width: 640px) {
+  .container {
+    width: 90%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    width: 85%;
+  }
+}
+@media (min-width: 1280px) {
+  .container {
+    width: 80%;
+  }
+}
+@media (min-width: 1536px) {
+  .container {
+    width: 75%;
+  }
+}
+
+@media (min-width: 1600px) {
+  .container {
+    width: 80%;
+  }
+}

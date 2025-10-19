@@ -15,13 +15,13 @@ export default ProjectsPage;
 
 export async function generateMetadata() {
   return {
-    title: "Sourav's Showcase: A Glimpse into Recent React JS Creations",
+    title: "Rohit's Showcase: A Glimpse into Recent React JS Creations",
     description:
-      "Embark on a journey through Sourav's recent projects, where every line of code tells a story. From stunning user interfaces to powerful functionalities, experience the magic of React JS in action.",
+      "Embark on a journey through Rohit's recent projects, where every line of code tells a story. From stunning user interfaces to powerful functionalities, experience the magic of React JS in action.",
     openGraph: {
       images: [
         {
-          url: "../Assets/project-banner.png",
+          url: "/Assets/project-banner.png",
           width: 500,
           height: 500,
         },

@@ -22,7 +22,7 @@ const Quotes = () => {
           </span>
 
           <span className="text-[0.8rem] sm:text-[1.5rem] text-white font-[500]">
-            With great power comes great electricity bill
+           With great React state comes great re-renders.
           </span>
 
           {/* bottom design  */}

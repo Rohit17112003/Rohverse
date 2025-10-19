@@ -1,11 +1,14 @@
 import { PrimaryButton } from "../Common";
 import Link from "next/link";
+import Image from "next/image";
 
 const ProjectCard = ({ name, des, thumbnail, liveURL, github, tech }) => {
   return (
     <div className="w-full border border-gray ">
       <div className="w-full h-[12.5625rem]">
-        <img
+        <Image
+          width={0}
+          height={0}
           src={thumbnail}
           alt={name}
           className="w-full h-full object-cover"

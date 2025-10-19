@@ -18,7 +18,7 @@ const Footer = () => {
                 </Link>
               </div>
               <span className="text-white font-[400] text-[1rem]">
-                Web designer and front-end developer
+                React.js & Next.js Front-End Developer | Web Designer
               </span>
             </div>
 
@@ -38,11 +38,16 @@ const Footer = () => {
           </div>
 
           <div className="flex items-center gap-1 justify-center">
-          <span className="text-gray">  <FaRegCopyright/></span>
-            <span className="text-gray font-[400] text-[1rem]">
-             Copyright 2025. Made by Rohverse 
+            <span className="text-gray">
+              {" "}
+              <FaRegCopyright />
             </span>
-            <span className=" text-[#fff]"><FaHeartbeat/></span>
+            <span className="text-gray font-[400] text-[1rem]">
+              Copyright 2025. Made by Rohverse
+            </span>
+            <span className=" text-[#fff]">
+              <FaHeartbeat />
+            </span>
           </div>
         </div>
       </div>

@@ -65,7 +65,7 @@ const Message = () => {
             </svg>
           </span>
           <Link
-            href="https://www.instagram.com/souravgupta5480"
+            href="https://www.instagram.com/rohit_rana_7352"
             className="description"
             target="_blank"
           >

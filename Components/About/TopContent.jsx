@@ -2,6 +2,8 @@
 import { PrimaryButton, SectionHeading } from "../Common";
 import Link from "next/link";
 import { motion } from "framer-motion";
+import Image from "next/image";
+
 const TopContent = ({ isButton, gap, isLine, icon, des }) => {
   return (
     <>
@@ -31,13 +33,12 @@ const TopContent = ({ isButton, gap, isLine, icon, des }) => {
                 }}
                 className="w-full h-full justify-center flex flex-col gap-5 sm:gap-[2rem]"
               >
-                <span className="description">Hello, I&#8217;m Rohit!</span>
+                <span className="description">Hello, I’m Rohit!</span>
                 <span className="description">
-                  A React JS aficionado, transforming ideas into captivating
-                  digital experiences. From sleek designs to seamless
-                  functionality, I&#8217;m here to craft your online vision into
-                  reality. Let&#8217;s embark on this journey of innovation
-                  together.
+                  A React.js developer passionate about turning ideas into
+                  engaging digital experiences. From sleek designs to seamless
+                  functionality, I craft interfaces that bring your vision to
+                  life. Let’s create something extraordinary together.
                 </span>
 
                 {isButton && (
@@ -63,8 +64,10 @@ const TopContent = ({ isButton, gap, isLine, icon, des }) => {
               }}
               className="hidden lg:flex lg:justify-end w-full sm:w-auto sm:h-[30rem] items-start"
             >
-              <img
-                src="../Assets/about.svg"
+              <Image
+                width={0}
+                height={0}
+                src="/Assets/about.svg"
                 alt="about-image"
                 className="h-full w-full sm:w-auto"
               />
@@ -74,10 +77,12 @@ const TopContent = ({ isButton, gap, isLine, icon, des }) => {
 
         {/* bottom dots design  */}
         <div className="h-[9.6875rem] w-[5.6875rem] hidden lg:block absolute -right-7 bottom-[15%]">
-          <img
-            src="../Assets/Dots.png"
+          <Image
+            width={0}
+            height={0}
+            src="/Assets/Dots.png"
             alt="dot design"
-            className="w-full object-contain h-full object-contain"
+            className="w-full h-full object-contain"
           />
         </div>
       </div>

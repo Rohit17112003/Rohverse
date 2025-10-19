@@ -14,9 +14,11 @@ const Contact = () => {
           <div className="w-full grid lg:grid-cols-2 gap-5">
             <div className=" flex flex-col gap-[1rem]">
               <span className="description">
-                I am interested in freelance opportunities. However, if you have
-                other request or question, do not hesitate to contact me
+                I’m currently available for freelance projects. Got a question
+                or an idea? Don’t hesitate to get in touch — I’m always happy to
+                chat!
               </span>
+
               <div className="w-full flex flex-col gap-2">
                 <Message />
                 {/* <Support /> */}

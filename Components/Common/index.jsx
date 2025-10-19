@@ -1,29 +1,11 @@
 import Link from "next/link";
+import Image from "next/image";
 
 const Logo = () => {
   return (
-    <div className="flex items-center flex-row gap-[0.5rem] text-white">
-     <svg
-    xmlns="http://www.w3.org/2000/svg"
-    viewBox="0 0 64 64"
-    width="40"
-    height="40"
-    fill="currentColor"
-  >
-    <text
-      x="50%"
-      y="50%"
-      dominantBaseline="middle"
-      textAnchor="middle"
-      fontSize="40"
-      fontFamily="serif"
-      fontWeight="bold"
-    >
-      ℞
-    </text>
-  </svg>
-      <span className="text-[1rem] text-white font-[500]">ROHVERSE </span>
-    </div>
+   <>
+    <Image width={100} height={0} src="/Assets/logo.png" alt="logo" className="w-16 md:w-18 lg:w-24"/>
+   </>
   );
 };
 const PrimaryButton = (props) => {
@@ -63,7 +45,7 @@ const ErrorMessage = ({ message }) => {
 const CvButton = () => {
   return (
     <Link
-      href="../Assets/Sourav Kumar (React Js Developer).pdf"
+      href="../Assets/Rohit Kumar (React Js Developer).pdf"
       target="_blank"
     >
       <div className=" relative backdrop-blur-sm bg-light_primary border  border-primary text-white px-7 py-3 flex flex-row gap-2 items-center mx-auto ">

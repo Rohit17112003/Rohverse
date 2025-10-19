@@ -7,7 +7,7 @@ const inter = Fira_Code({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Rohit React Js Developer",
-  description: "I am Rohit - React Js Developer.",
+  description: "I am Rohit - React Js Next js Developer.",
 };
 
 export default function RootLayout({ children }) {

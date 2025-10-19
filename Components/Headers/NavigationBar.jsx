@@ -9,7 +9,7 @@ import { MenuContext } from "../Context/MenuContext";
 const NavigationBar = () => {
   const { handleMenuToggle } = useContext(MenuContext);
   return (
-    <div className="bg-[#4DA8DA] roboto-condensed sm:bg-[#fff0] backdrop-blur-sm pt-[1.5rem] px-[1rem] sm:px-0 sm:pt-[2rem] pb-[1rem] flex flex-row justify-between container">
+    <div className="bg-[#4DA8DA] roboto-condensed sm:bg-[#fff0] backdrop-blur-sm  px-[1rem] sm:px-0 py-2 md:py-4 lg:py-6 flex flex-row justify-between items-center container">
       <Link href="/">
         <Logo />
       </Link>

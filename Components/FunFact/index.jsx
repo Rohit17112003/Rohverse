@@ -1,6 +1,7 @@
 import React from "react";
 import { SectionHeading } from "../Common";
 import { funFacts } from "@/db";
+import Image from "next/image";
 
 const FunFacts = () => {
   return (
@@ -27,8 +28,10 @@ const FunFacts = () => {
           {/* design  */}
           <div className="hidden sm:block col-span-1 flex-all-center overflow-hidden">
             <div className="w-full h-full flex items-center justify-end">
-              <img
-                src="../Assets//funFactDesign.svg"
+              <Image
+                width={0}
+                height={0}
+                src="/Assets//funFactDesign.svg"
                 alt="funFactDesign"
                 className="h-[10.5625rem] object-contain hidden sm:block"
               />
@@ -36,8 +39,10 @@ const FunFacts = () => {
           </div>
 
           {/* bottom - design - mobile  */}
-          <img
-            src="../Assets/funFactDesign.svg"
+          <Image
+            width={0}
+            height={0}
+            src="/Assets/funFactDesign.svg"
             alt="funFactDesign"
             className="h-[10.5625rem] sm:hidden absolute -right-10 bottom-0 object-contain opacity-70"
           />

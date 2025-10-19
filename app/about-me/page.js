@@ -21,13 +21,13 @@ export default AboutPage;
 
 export async function generateMetadata() {
   return {
-    title: "Meet Sourav: Crafting Digital Experiences with React JS",
+    title: "Meet Rohit: Crafting Digital Experiences with React JS",
     description:
-      "Dive into the story behind the code. Discover Sourav's journey into the realm of web development, his passion for React JS, and his relentless pursuit of excellence in crafting digital masterpieces.",
+      "Dive into the story behind the code. Discover Rohit's journey into the realm of web development, his passion for React JS, and his relentless pursuit of excellence in crafting digital masterpieces.",
     openGraph: {
       images: [
         {
-          url: "./sourav_element.png",
+          url: "/Rohit_element.png",
           width: 500,
           height: 500,
         },

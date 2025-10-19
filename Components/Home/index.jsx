@@ -18,7 +18,7 @@ const HomePage = () => {
         behavior: "smooth",
         block: "start",
       });
-  }, [param]);
+  }, [action]);
 
   return (
     <div className="w-full relative px-[1rem] sm:px-0">

@@ -1,6 +1,7 @@
 import React from "react";
 import { SectionHeading } from "../Common";
 import { skills } from "@/db";
+import Image from "next/image";
 
 const Skills = ({ icon, isLine, isDesign, parentLayout, childLayout }) => {
   return (
@@ -13,7 +14,7 @@ const Skills = ({ icon, isLine, isDesign, parentLayout, childLayout }) => {
         <div className={`w-full ${parentLayout} gap-10`}>
           {isDesign && (
             <div className="hidden sm:block col-span-1">
-              <img src="../Assets/skilldesign.svg" alt="design" />
+              <Image width={0} height={0} src="/Assets/skilldesign.svg" alt="design" />
             </div>
           )}
 

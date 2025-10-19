@@ -5,6 +5,7 @@ import { MenuContext } from "../Context/MenuContext";
 import { navigationTab, socialLink } from "@/db";
 import Link from "next/link";
 import { motion } from "framer-motion";
+import { X } from "lucide-react";
 
 const Drawer = () => {
   const { handleMenuToggle } = useContext(MenuContext);
@@ -17,25 +18,7 @@ const Drawer = () => {
         <div className="w-full pt-[1rem] pb-[0.5rem] flex flex-row justify-between">
           <Logo />
           <span onClick={() => handleMenuToggle()}>
-           <svg
-    xmlns="http://www.w3.org/2000/svg"
-    viewBox="0 0 64 64"
-    width="40"
-    height="40"
-    fill="currentColor"
-  >
-    <text
-      x="50%"
-      y="50%"
-      dominantBaseline="middle"
-      textAnchor="middle"
-      fontSize="40"
-      fontFamily="serif"
-      fontWeight="bold"
-    >
-      ℞
-    </text>
-  </svg>
+            <X size={32} className="text-white cursor-pointer" />
           </span>
         </div>
 
@@ -59,9 +42,9 @@ const Drawer = () => {
               >
                 <Link
                   href={path}
-                  className={`flex flex-row items-center text-gray font-[400]`}
+                  className={`flex flex-row items-center text-gray font-[400] text-[1rem]`}
                 >
-                  <span className="text-primary">#</span>
+                  <span className="text-primary pr-1">#</span>
                   <span>{tab}</span>
                 </Link>
               </motion.div>

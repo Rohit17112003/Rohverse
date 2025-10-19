@@ -31,7 +31,7 @@ const NavigationBar = () => {
 
       <div className="sm:hidden">
         <span onClick={() => handleMenuToggle()} className="text-white"> 
-       <HiMiniBars3BottomRight/>
+       <HiMiniBars3BottomRight className="text-[2rem]"/>
         </span>
       </div>
     </div>

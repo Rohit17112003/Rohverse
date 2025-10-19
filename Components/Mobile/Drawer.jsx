@@ -53,12 +53,12 @@ const Drawer = () => {
         </div>
 
         {/* social links  */}
-        <div className="w-full absolute left-0 bottom-[2.5rem] flex flex-row justify-center gap-[0.5rem]">
+        <div className="w-full absolute left-0 bottom-[3.5rem] flex flex-row justify-center gap-[0.5rem]">
           {socialLink.map((values, index) => {
             const { icon, url } = values;
             return (
               <Link
-                className="text-gray text-[2rem]"
+                className="text-gray text-[1.8rem]"
                 href={url}
                 target="_blank"
                 key={index}
